@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arie.heritebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.arie.heritebakgambar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.Bunga_activity"
+            android:label="@string/title_activity_bunga_activity" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.JanganActivity"
+            android:label="@string/title_activity_daur" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.GembokActivity"
+            android:label="@string/title_activity_bunga" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.JejakaActivity"
+            android:label="@string/title_activity_kunci" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.JembatanActivity"
+            android:label="@string/title_activity_tantangan" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.JuaraActivity"
+            android:label="@string/title_activity_ukuran" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.KameraActivity"
+            android:label="@string/title_activity_kotak" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.KeongActivity"
+            android:label="@string/title_activity_nasib" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.KurangActivity"
+            android:label="@string/title_activity_sepatu" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.MalamActivity"
+            android:label="@string/title_activity_kura" >
+        </activity>
+        <activity
+            android:name="com.arie.heritebakgambar.SelesaiActivity"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+    </application>
+
+</manifest>
